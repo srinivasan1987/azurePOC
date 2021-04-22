@@ -1,0 +1,24 @@
+{
+	"name": "azurepoctrigger",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "pipeline1",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/mlpocblob/blobs/",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/4d31b354-b40a-431b-8f85-822d19c3d7da/resourceGroups/ml-poc/providers/Microsoft.Storage/storageAccounts/mlpoc",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}

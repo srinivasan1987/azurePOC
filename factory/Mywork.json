@@ -1,0 +1,9 @@
+{
+	"name": "Mywork",
+	"location": "eastasia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "01cf6aa2-b4f6-4dde-8450-2ee200c2b388",
+		"tenantId": "566529b0-9d41-4f59-bdf3-e1d331aa5d47"
+	}
+}
